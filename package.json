@@ -1,0 +1,9 @@
+{
+  "name": "checkout-message-sdk",
+  "version": "0.1.0",
+  "description": "Embeddable checkout messaging SDK",
+  "main": "src/sdk.js",
+  "scripts": {
+    "dev": "npx serve ."
+  }
+}

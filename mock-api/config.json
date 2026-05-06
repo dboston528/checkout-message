@@ -1,0 +1,6 @@
+{
+  "price": 200,
+  "monthly": 50,
+  "installments": 4,
+  "provider": "FlexPay"
+}

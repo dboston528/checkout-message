@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Merchant Test Page</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 0 20px;
+      color: #1a1a1a;
+    }
+
+    .product {
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      padding: 24px;
+    }
+
+    .product h2 { margin: 0 0 4px; }
+    .product .price { font-size: 24px; font-weight: bold; margin: 8px 0 16px; }
+
+    button {
+      background: #0057ff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 24px;
+      font-size: 15px;
+      cursor: pointer;
+      margin-top: 16px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="product">
+    <h2>Wireless Headphones</h2>
+    <p>Premium sound, 30hr battery, noise cancelling.</p>
+    <div class="price">$200.00</div>
+
+    <!-- SDK target -->
+    <div id="payment-widget"></div>
+
+    <button>Add to Cart</button>
+  </div>
+
+  <script src="src/sdk.js"></script>
+</body>
+</html>
